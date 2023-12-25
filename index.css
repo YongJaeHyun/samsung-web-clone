@@ -1,0 +1,113 @@
+/* box (flex) */
+.box__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.box__row {
+  display: flex;
+  flex-direction: row;
+}
+
+.box__between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* width */
+.width__screen {
+  width: 100vw;
+}
+
+.width__full {
+  width: 100%;
+}
+
+/* display */
+.display__inline {
+  display: inline-block;
+}
+
+/* image */
+.img__cover {
+  max-width: 100%;
+  object-fit: cover;
+  width: auto !important;
+}
+
+/* text */
+.text__white {
+  color: white;
+}
+
+.text__xs {
+  font-size: 0.85rem;
+}
+
+.text__sm {
+  font-size: 0.9rem;
+}
+
+.text__md {
+  font-size: 0.93rem;
+}
+
+.text__base {
+  font-size: 1rem;
+}
+
+.text__lg {
+  font-size: 1.1rem;
+}
+
+.text__bold {
+  font-weight: bold;
+}
+
+.text__ls__sm {
+  letter-spacing: -1px;
+}
+
+/* input */
+input {
+  background-color: transparent;
+  border: 0;
+}
+
+/* button */
+button {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* gap */
+.gap__sm {
+  gap: 1rem;
+}
+
+.gap__md {
+  gap: 1.2rem;
+}
+
+/* color */
+.text__blue {
+  color: #2189ff;
+}
+
+.text__gray {
+  color: #707070;
+}
+
+/* border */
+.border__btm__lg {
+  border-bottom: 2px solid black;
+}

@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="carousel.css" />
+    <link rel="stylesheet" href="recommend-product.css" />
+    <link rel="stylesheet" href="event-product.css" />
+    <title>Samsung 클론 코딩</title>
+  </head>
+  <body>
+    <div class="banner banner__blue box__center text__white text__sm">
+      <img
+        loading="lazy"
+        id="banner__christmas-tree"
+        class="img__cover"
+        src="/images/christmas_tree.png"
+        alt="크리스마스 트리"
+      />
+      <p id="banner__text" class="display__inline">
+        크리스마스 선물을 준비했어요. 출석체크하러 오세요!
+      </p>
+      <a
+        id="banner__link"
+        class="text__white"
+        href="https://www.samsung.com/sec/event/attendanceEvent/?eventNo=32608"
+        >출첵하기 ></a
+      >
+    </div>
+    <header>
+      <div id="header__wrapper">
+        <div class="box__column">
+          <div class="box__row box__between">
+            <a class="display__inline" href="/">
+              <img
+                loading="lazy"
+                src="https://www.samsung.com/sec/static/_images/gnb/logo-gnb.svg"
+                alt="삼성 로고"
+              />
+            </a>
+            <div class="box__row gap__sm">
+              <div id="search-bar" class="box__center box__between text__xs">
+                <span>1. 갤럭시 S23</span>
+                <img
+                  loading="lazy"
+                  src="	https://www.samsung.com/sec/static/_images/gnb/icon-26-Search.svg"
+                  alt="검색 아이콘"
+                />
+              </div>
+              <button type="button">
+                <img
+                  loading="lazy"
+                  src="https://www.samsung.com/sec/static/_images/gnb/icon-26-Cart.svg"
+                  alt="장바구니 아이콘"
+                />
+              </button>
+              <button type="button">
+                <img
+                  loading="lazy"
+                  src="https://www.samsung.com/sec/static/_images/gnb/icon-26-mypage.svg"
+                  alt="유저 메뉴 아이콘"
+                />
+              </button>
+            </div>
+          </div>
+          <nav id="header__nav" class="box__between">
+            <ul id="header__category" class="box__row gap__md">
+              <li><button class="text__bold text__ls__sm">모바일</button></li>
+              <li><button class="text__bold text__ls__sm">TV&오디오</button></li>
+              <li><button class="text__bold text__ls__sm">주방가전</button></li>
+              <li><button class="text__bold text__ls__sm">리빙가전</button></li>
+              <li><button class="text__bold text__ls__sm">PC/주변기기</button></li>
+              <li><button class="text__bold text__ls__sm">소모품</button></li>
+              <li><button class="text__bold text__ls__sm">삼성케어플러스</button></li>
+              <li><button class="text__bold text__ls__sm">스마트싱스</button></li>
+              <li><button class="text__bold text__ls__sm">삼성닷컴추천</button></li>
+              <li><button class="text__bold text__ls__sm">아울렛</button></li>
+              <li><button class="text__bold text__ls__sm">#Samsung Experience</button></li>
+            </ul>
+            <ul id="header__category2" class="box__row gap__md">
+              <li><button class="text__bold text__ls__sm">고객지원</button></li>
+              <li><button class="text__bold text__ls__sm">비즈니스</button></li>
+              <li><button class="text__bold text__ls__sm">삼성스토어</button></li>
+              <li><button class="text__bold text__ls__sm">지속가능경영</button></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section id="carousel__container">
+      <img
+        id="left-arrow"
+        src="https://www.samsung.com/sec/static/_images/common/icon-slick-prev-compo.svg"
+        alt="왼쪽 화살표"
+      />
+      <div id="carousel__wrapper">
+        <div id="carousel-info__box">
+          <h2 id="carousel-info__title" class="text__lg text__bold">
+            키친의 완성<br />BESPOKE 냉장고
+          </h2>
+          <p id="carousel-info__content">
+            냉장고 동시구매하고<br />최대 61만원 상당 혜택을 만나보세요
+          </p>
+          <button id="carousel-info__btn">구매 혜택 보기</button>
+        </div>
+      </div>
+      <img
+        id="right-arrow"
+        src="	https://www.samsung.com/sec/static/_images/common/icon-slick-next-compo.svg"
+        alt="오른쪽 화살표"
+      />
+      <img
+        class="img__cover"
+        src="https://images.samsung.com/kdp/cms_contents/322576/3d13a4a4-65b5-4950-b3c8-ad15bb99ba7a.jpg?$ORIGIN_JPG$"
+        alt="가을 분위기의 일러스트 배경에 냉장고 키친핏 제품을 보여주고 있습니다."
+      />
+    </section>
+    <section id="recommend__container">
+      <h3 id="recommend__title">당신에게 딱 맞는 추천제품</h3>
+      <button id="recommend__left-arrow">
+        <img
+          src="	https://www.samsung.com/sec/static/_images/common/ico-mmi-prev.png"
+          alt="왼쪽 화살표"
+        />
+      </button>
+      <button id="recommend__right-arrow">
+        <img
+          src="https://www.samsung.com/sec/static/_images/common/ico-mmi-next.png"
+          alt="오른쪽 화살표"
+        />
+      </button>
+      <div id="recommend-products">
+        <div class="product__box">
+          <div class="product__box__top">
+            <a class="product__detail-link" href="/">
+              <img
+                class="img__cover"
+                src="https://images.samsung.com/kdp/goods/2023/12/01/c414cab1-df51-42cd-b084-49249568cd91.png?$THUB_SHOP_S$"
+                alt="갤럭시 S23 FE 자급제"
+              />
+            </a>
+            <div class="product-info text__ls__sm">
+              <p class="product-info__title text__bold">갤럭시 S23 FE 자급제</p>
+              <p class="product-info__pdnum text__sm">SM-S711NZWWKOO</p>
+              <div class="product-info__benefit-price text__xs">
+                <p>혜택가</p>
+                <p class="text__blue text__bold">
+                  <span class="text__lg">757,790</span>
+                  <span>원</span>
+                </p>
+              </div>
+              <div class="product-info__points text__xs">
+                <p class="text__gray">적립 예정 포인트</p>
+                <p>
+                  <span>757</span>
+                  <span>P</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="product__box__bottom">
+            <a class="product__compare-link text__sm" href="/">
+              <img
+                src="https://www.samsung.com/sec/static/_images/common/iconPlus-default.svg"
+                alt="비교하기에 추가 아이콘"
+              />
+              <span>비교하기</span>
+            </a>
+            <a class="product__rating-link text__sm" href="/">
+              <img
+                src="https://www.samsung.com/sec/static/_images/common/ico-mmi-star.png"
+                alt="평점 아이콘"
+              />
+              <b class="text__bold">4.8</b>
+              <span>(159)</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="product__box">
+          <div class="product__box__top">
+            <a class="product__detail-link" href="/">
+              <img
+                class="img__cover"
+                src="https://images.samsung.com/kdp/goods/2023/07/10/2a32c72b-dab4-498b-89ca-148cdf2a4de3.png?$THUB_SHOP_S$"
+                alt="갤럭시 워치6 40 mm (블루투스)"
+              />
+            </a>
+            <div class="product-info text__ls__sm">
+              <p class="product-info__title text__bold">갤럭시 워치6 40 mm<br />(블루투스)</p>
+              <p class="product-info__pdnum text__sm">SM-R930NZEAKOO</p>
+              <div class="product-info__benefit-price text__sm">
+                <p>혜택가</p>
+                <p class="text__blue text__bold">
+                  <span class="text__lg">299,000</span>
+                  <span>원</span>
+                </p>
+              </div>
+              <div class="product-info__points text__sm">
+                <p class="text__gray">적립 예정 포인트</p>
+                <p>
+                  <span>299</span>
+                  <span>P</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="product__box__bottom">
+            <a class="product__compare-link text__sm" href="/">
+              <img
+                src="https://www.samsung.com/sec/static/_images/common/iconPlus-default.svg"
+                alt="비교하기에 추가 아이콘"
+              />
+              <span>비교하기</span>
+            </a>
+            <a class="product__rating-link text__sm" href="/">
+              <img
+                src="https://www.samsung.com/sec/static/_images/common/ico-mmi-star.png"
+                alt="평점 아이콘"
+              />
+              <b class="text__bold">4.8</b>
+              <span>(1361)</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="product__box">
+          <div class="product__box__top">
+            <a class="product__detail-link" href="/">
+              <img
+                class="img__cover"
+                src="https://images.samsung.com/kdp/goods/2021/07/27/156f8368-2407-473c-888d-997d3dca73a7.png?$THUB_SHOP_S$"
+                alt="갤럭시 버즈2"
+              />
+            </a>
+            <div class="product-info text__ls__sm">
+              <p class="product-info__title text__bold">갤럭시 버즈2</p>
+              <p class="product-info__pdnum text__sm">SM-R177NZWAKOO</p>
+              <div class="product-info__benefit-price text__sm">
+                <p>혜택가</p>
+                <p class="text__blue text__bold">
+                  <span class="text__lg">109,000</span>
+                  <span>원</span>
+                </p>
+              </div>
+              <div class="product-info__points text__sm">
+                <p class="text__gray">적립 예정 포인트</p>
+                <p>
+                  <span>109</span>
+                  <span>P</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="product__box__bottom">
+            <a class="product__compare-link text__sm" href="/">
+              <img
+                src="https://www.samsung.com/sec/static/_images/common/iconPlus-default.svg"
+                alt="비교하기에 추가 아이콘"
+              />
+              <span>비교하기</span>
+            </a>
+            <a class="product__rating-link text__sm" href="/">
+              <img
+                src="https://www.samsung.com/sec/static/_images/common/ico-mmi-star.png"
+                alt="평점 아이콘"
+              />
+              <b class="text__bold">4.9</b>
+              <span>(4371)</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="product__box">
+          <div class="product__box__top">
+            <a class="product__detail-link" href="/">
+              <img
+                class="img__cover"
+                src="https://images.samsung.com/kdp/goods/2023/07/06/2b94bc52-2a72-4011-b7c1-561280af7fdf.png?$THUB_SHOP_S$"
+                alt="갤럭시 탭 S9+ (Wi-Fi)"
+              />
+            </a>
+            <div class="product-info text__ls__sm">
+              <p class="product-info__title text__bold">갤럭시 탭 S9+ (Wi-Fi)</p>
+              <p class="product-info__pdnum text__sm">SM-X810NZAAKOO</p>
+              <div class="product-info__benefit-price text__sm">
+                <p>혜택가</p>
+                <p class="text__blue text__bold">
+                  <span class="text__base">1,199,700</span>
+                  <span class="text__xs">원</span>
+                </p>
+              </div>
+              <div class="product-info__points text__sm">
+                <p class="text__gray">적립 예정 포인트</p>
+                <p>
+                  <span>1,209</span>
+                  <span>P</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="product__box__bottom">
+            <a class="product__compare-link text__sm" href="/">
+              <img
+                src="https://www.samsung.com/sec/static/_images/common/iconPlus-default.svg"
+                alt="비교하기에 추가 아이콘"
+              />
+              <span>비교하기</span>
+            </a>
+            <a class="product__rating-link text__sm" href="/">
+              <img
+                src="https://www.samsung.com/sec/static/_images/common/ico-mmi-star.png"
+                alt="평점 아이콘"
+              />
+              <b class="text__bold">4.8</b>
+              <span>(366)</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="event-container">
+      <div id="event-category">
+        <button class="border__btm__lg text__ls__sm text__md text__bold padding-for-border">
+          Holiday Sale
+        </button>
+        <button class="text__ls__sm text__md text__bold padding-for-border">
+          새로운 갤럭시
+        </button>
+        <button class="text__ls__sm text__md text__bold padding-for-border">
+          12월의 특별 혜택
+        </button>
+        <button class="text__ls__sm text__md text__bold padding-for-border">
+          아울렛 인기상품
+        </button>
+        <button class="text__ls__sm text__md text__bold padding-for-border">
+          Samsung Experience
+        </button>
+      </div>
+      <div id="event-boxes">
+        <div>
+          <img
+            id="event-box"
+            class="img__cover"
+            src="https://images.samsung.com/kdp/cms_contents/322100/b0dec572-f16f-4f40-a64f-c4ddbfe70f2a.png?$330_330_PNG$"
+            alt="갤럭시 Z 폴드5 자급제 상성 강남 전용컬러 제품 이미지가 있다. "
+          />
+        </div>
+        <div>
+          <img
+            id="event-box"
+            class="img__cover"
+            src="https://images.samsung.com/kdp/cms_contents/324113/6b6b52e4-2579-4226-955b-3034414a5f16.png?$330_330_PNG$"
+            alt="달이 뜬 눈 내리는 밤 설산 위에 코기가 있다. "
+          />
+        </div>
+        <div>
+          <img
+            id="event-box"
+            class="img__cover"
+            src="https://images.samsung.com/kdp/cms_contents/322100/0c6ecef2-c605-4fc5-a478-bde24095d1ca.png?$330_330_PNG$"
+            alt="BESPOKE 그랑데 AI 24 kg + 21 kg [올인원컨트롤] + 상단 설치 키트 제품 이미지가 있다. "
+          />
+        </div>
+        <div>
+          <img
+            id="event-box"
+            class="img__cover"
+            src="https://images.samsung.com/kdp/cms_contents/324113/26d2b7ae-2c1a-4cf0-83d2-9a25b4deb10a.png?$330_330_PNG$"
+            alt="냉장고와 세탁기가 놓여 있다."
+          />
+        </div>
+        <div>
+          <img
+            id="event-box"
+            class="img__cover"
+            src="https://images.samsung.com/kdp/cms_contents/324113/637b7ed2-8ade-47ed-a9bb-b85b76d0879e.png?$330_330_PNG$"
+            alt="삼성 앱 로고 옆에 포인트 그림이 있다."
+          />
+        </div>
+        <div>
+          <img
+            id="event-box"
+            class="img__cover"
+            src="https://images.samsung.com/kdp/cms_contents/324113/83dc863b-205c-4a12-b0f9-b8915f37c817.png?$330_330_PNG$"
+            alt="김치플러스 4도어 490 L 제품 이미지가 있다."
+          />
+        </div>
+        <div>
+          <img
+            id="event-box"
+            class="img__cover"
+            src="https://images.samsung.com/kdp/cms_contents/324113/dbf7848e-5c89-443b-873f-50fbc61e52e3.png?$330_330_PNG$"
+            alt="삼성카드 옆에 선물박스가 놓여 있다."
+          />
+        </div>
+        <div>
+          <img
+            id="event-box"
+            class="img__cover"
+            src="https://images.samsung.com/kdp/cms_contents/324113/747609ae-1d03-41c1-903d-e9b24c3b1c45.png?$330_330_PNG$"
+            alt="UHD UA7000 (214 cm) TV 이미지가 있다."
+          />
+        </div>
+      </div>
+    </section>
+    <footer style="height: 2.5rem"></footer>
+  </body>
+</html>
